@@ -1,0 +1,47 @@
+{
+	"opersKwsList": [
+		{
+			"lang" : "С",
+			"opers" : [
+				"!", "!=", "%", "%=", "&", "&&", "&=",
+				"*", "*=", "+", "++", "+=", "-", "--", "-=", "->", ".", "/", "/=", "<", "<<", "<<=", "<=", "=", "==", ">", ">=", ">>", ">>=",
+				"^", "^=", "|", "|=", "||", "~"
+			],
+			"keywords" : ["auto", "break", "case", "char", "const", "continue", "default", "do", "double", "else", "enum",
+				"extern", "float", "for", "goto", "if", "inline", "int", "long", "register", "restrict", "return", "short", "signed",
+				"sizeof", "static", "switch", "typedef", "union", "unsigned", "void", "volatile", "while", "#define", "#else", "#endif", 
+				"#ifdef", "#ifndef", "#include", "#pragma", "#undef"
+			]
+		},
+		{
+			"lang" : "С++",
+			"opers" : [],
+			"keywords" : []
+		},
+		{
+			"lang" : "C#",
+			"opers" : [],
+			"keywords" : []
+		},
+		{
+			"lang" : "Python",
+			"opers" : [],
+			"keywords" : []
+		},
+		{
+			"lang" : "Pascal",
+			"opers" : [],
+			"keywords" : []
+		},
+		{
+			"lang" : "PHP",
+			"opers" : [],
+			"keywords" : []
+		},
+		{
+			"lang" : "JavaScript",
+			"opers" : [],
+			"keywords" : []
+		}
+	]
+}

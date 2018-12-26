@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="ParserExample.js"></script>
+</head>
+<body>
+	<form>
+		<label for="lang"> Язык: </label>
+		<select id="lang">
+			<option value="C"> C </option>
+			<option value="C++"> C++ </option>
+			<option value="C#"> C# </option>
+			<option value="Python"> Python </option>
+			<option value="Pascal"> Pascal </option>
+			<option value="PHP"> PHP </option>
+			<option value="JavaScript"> JavaScript </option>
+		</select><br>
+		<label for="forbid_elems"> Запрещенные элементы (через ; или , или пробел)</label><br>
+		<input type="text" id="forbid_elems"></input><br>
+		<label for="code"> Текст программы: </label><br>
+		<textarea id="code" rows="15" cols="40"></textarea><br>
+		<input type="button" name="btn" id="btn" value="OK"></input>
+	</form>
+<p id="output"></p>
+</body>
+</html>
