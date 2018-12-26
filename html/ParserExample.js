@@ -1,7 +1,7 @@
 
 // Путь до файла с библиотекой элементов
 
-var path = "/opers_keywords_leest.json";
+var path = "/opers_keywords_list.json";
 
 $(document).ready(function () {
     $("#btn").click(function () {
